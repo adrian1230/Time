@@ -14,7 +14,6 @@ while start < end:
     print('{} hour {} minute {} second\n'.format(
         a,b,c
         ))
-    print(start,a,b,c)
     time.sleep(1)
     if c == 60:
         c = 0
@@ -22,10 +21,3 @@ while start < end:
     if b == 60:
         b = 0
         a += 1
-        
-
-
-
-
-
-
